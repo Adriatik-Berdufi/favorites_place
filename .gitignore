@@ -45,3 +45,5 @@ app.*.map.json
 
 # Ignore environment variables file
 .env
+android/build.gradle
+key.properties

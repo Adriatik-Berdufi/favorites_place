@@ -1,11 +1,18 @@
+# Gradle files
 gradle-wrapper.jar
 /.gradle
 /captures/
 /gradlew
 /gradlew.bat
-/local.properties
-GeneratedPluginRegistrant.java
 
+# Local properties
+/local.properties
+
+# Generated files
+GeneratedPluginRegistrant.java
+android/gradle.properties
+
+# Keystore files
 # Remember to never publicly share your keystore.
 # See https://flutter.dev/to/reference-keystore
 key.properties
