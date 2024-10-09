@@ -1,5 +1,7 @@
+import 'package:favorites_place/models/enviroment.dart';
 import 'package:favorites_place/screens/places.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final colorScheme = ColorScheme.fromSeed(
@@ -13,7 +15,8 @@ final theme = ThemeData().copyWith(
   colorScheme: colorScheme,
 );
 
-void main() {
+void main() async {
+  await dotenv.load(fileName: Enviroment.fileName);
   runApp(
     const ProviderScope(child: MyApp()),
   );
