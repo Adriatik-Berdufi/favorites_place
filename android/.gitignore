@@ -10,7 +10,8 @@ gradle-wrapper.jar
 
 # Generated files
 GeneratedPluginRegistrant.java
-android/gradle.properties
+gradle.properties
+AndroidManifest.xml
 
 # Keystore files
 # Remember to never publicly share your keystore.
@@ -18,3 +19,4 @@ android/gradle.properties
 key.properties
 **/*.keystore
 **/*.jks
+android/app/src/main/AndroidManifest.xml

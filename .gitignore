@@ -47,3 +47,4 @@ app.*.map.json
 .env
 android/build.gradle
 key.properties
+android/app/src/main/AndroidManifest.xml
